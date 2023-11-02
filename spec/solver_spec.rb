@@ -1,4 +1,5 @@
 require 'rspec'
+require_relative '../lib/solver'
 
 RSpec.describe Solver do
   describe '.factorial' do
