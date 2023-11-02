@@ -24,11 +24,11 @@ RSpec.describe Solver do
     end
   end
 
-#   describe '.fizzbuzz' do
-#     # it 'returns "fizz" for multiples of 3' do
-#     #   expect(Solver.fizzbuzz(3)).to eq('fizz')
-#     #   expect(Solver.fizzbuzz(9)).to eq('fizz')
-#     # end
+  describe '.fizzbuzz' do
+    it 'returns "fizz" for multiples of 3' do
+      expect(Solver.fizzbuzz(3)).to eq('fizz')
+      expect(Solver.fizzbuzz(9)).to eq('fizz')
+    end
 
 #     # it 'returns "buzz" for multiples of 5' do
 #     #   expect(Solver.fizzbuzz(5)).to eq('buzz')
