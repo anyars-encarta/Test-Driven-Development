@@ -6,4 +6,8 @@ class Solver
 
     (1..number).reduce(:*)
   end
+
+  def self.reverse(word)
+    word.reverse
+  end
 end
