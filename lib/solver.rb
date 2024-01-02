@@ -14,7 +14,7 @@ class Solver
   def self.fizzbuzz(number)
     if (number % 3).zero? && (number % 5).zero? # If number mod 3 is zero, and number mod 5 is zero, print fizzbuzz
       'fizzbuzz'
-    elsif (number % 3).zero? 
+    elsif (number % 3).zero? # If number mod 3 is zero, print fizz
       'fizz'
     elsif (number % 5).zero? 
       'buzz'
