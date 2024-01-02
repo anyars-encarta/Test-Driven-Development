@@ -40,7 +40,7 @@
 # 📖 [Encarta & Shaun TDD] <a name="about-project"></a>
 
 
-**Encarta & Shaun TDD** is a project on Test Driven Development.
+**Encarta & Shaun TDD** is a project on Test Driven Development. We wrote tests first before the actual programming.
 
 ## 🛠 Built With <a name="built-with"></a>
 
