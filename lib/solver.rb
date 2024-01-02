@@ -16,7 +16,7 @@ class Solver
       'fizzbuzz'
     elsif (number % 3).zero? # If number mod 3 is zero, print fizz
       'fizz'
-    elsif (number % 5).zero? 
+    elsif (number % 5).zero? # If number mod 5 is zero, print buzz
       'buzz'
     else
       number.to_s # else, print number
